@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+  },
+  "name": "hello_world",
+  "maintainer_email": "ryan.geyer@rightscale.com",
+  "attributes": {
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "RightScale",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "hello_world::default": "Prints hello world to the audit entry"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures hello_world",
+  "providing": {
+  }
+}
