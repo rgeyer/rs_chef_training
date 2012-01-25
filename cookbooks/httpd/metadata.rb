@@ -12,4 +12,5 @@ recipe "httpd::setup_index_page", "Creates a custom index page from a Chef templ
 
 attribute "httpd/your_name",
   :display_name => "Your Name",
+  :required => "required",
   :recipes => ["httpd::setup_index_page"]

@@ -12,5 +12,6 @@ include_recipe "httpd::install_httpd"
 
 template "/var/www/index.html" do
   source "index.html.erb"
+  mode 0644
   action :create
 end

@@ -5,7 +5,7 @@
   "maintainer_email": "ryan.geyer@rightscale.com",
   "attributes": {
     "httpd/your_name": {
-      "required": "optional",
+      "required": "required",
       "calculated": false,
       "choice": [
 
