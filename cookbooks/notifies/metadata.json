@@ -1,0 +1,49 @@
+{
+    "version": "0.1.0",
+    "recipes": {
+      "notifies::http_port_example": "Uses the port attribute to change the port that apache listens on."
+    },
+    "maintainer_email": "training@rightscale.com",
+    "conflicting": {
+    },
+    "attributes": {
+      "notifies/apache/port": {
+        "required": "recommended",
+        "calculated": false,
+        "choice": [
+
+        ],
+        "default": "80",
+        "type": "string",
+        "recipes": [
+          "notifies::http_port_example"
+        ],
+        "display_name": "Apache Listen Port"
+      }
+    },
+    "providing": {
+    },
+    "dependencies": {
+      "rs_utils": [
+
+      ]
+    },
+    "replacing": {
+    },
+    "license": "All rights reserved",
+    "groupings": {
+    },
+    "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES: \n\n= USAGE:\n\n",
+    "recommendations": {
+    },
+    "name": "notifies",
+    "maintainer": "RightScale, Inc.",
+    "suggestions": {
+    },
+    "platforms": {
+      "ubuntu": [
+
+      ]
+    },
+    "description": "Installs/Configures notifies"
+  }
