@@ -1,0 +1,21 @@
+= DESCRIPTION:
+
+Used to demonstrate the awesomeness of Chef resource notifications.
+
+* Run notifies::http_port_example to show apache running on port 80
+* Change port 81 and rerun -- apache does not pick up change.
+* Change port back to 80.
+* Modify template resource to have notifies paramters
+* Change port 81 and rerun -- apache is now running on port 81!
+* Inspect the log/audits for what happened.
+* Add :immediately flag and see what happens.
+
+
+= REQUIREMENTS:
+
+You must have port 80 and 81 open in security group and firewall.
+For simplicity this runs on Ubuntu only.
+
+= USAGE:
+
+Intended for training purposes only.
